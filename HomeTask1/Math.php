@@ -29,10 +29,13 @@ class Math
 
                case '/':
                {
-                   $res = $num1 / $num2;
+                   if($num2!= 0){
+                       $res = $num1 / $num2;
+                   }else{
+                       $res = 'Error';
+                   }
                    break;
                }
-
            }
        }
        else{
