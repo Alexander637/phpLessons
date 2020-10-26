@@ -1,0 +1,17 @@
+{
+  "name": "HomeTask2",
+  "type": "project",
+  "description": "Hillel home task.",
+  "license": "MIT",
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "FirstTask\\": "FirstTask/",
+      "SecondTask\\": "SecondTask/"
+    }
+  }
+}
