@@ -33,11 +33,6 @@ class Tank extends Transport implements SpeedInterface, DoorsInterface, MotorInt
 
             $this->accelerate($accelerateSpeed);
             $this->decelerate($decelerateSpeed);
-        } else {
-            $this->doorsCount = null;
-            $this->wheelsCount = null;
-            $this->motorType = null;
-            $this->barrel = null;
         }
     }
 }

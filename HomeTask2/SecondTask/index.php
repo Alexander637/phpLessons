@@ -40,9 +40,9 @@ echo 'Count of wheels: ' . $tank->getWheelCount() . '<br>';
 echo 'Type of motor: ' . $tank->getMotorType() . '<br>';
 echo 'Barrel: ' . $tank->fire() .'<br>';
 
-echo 'Car accelerate speed: ' . $tank->getAccelerate() . '<br>';
+echo 'Tank accelerate speed: ' . $tank->getAccelerate() . '<br>';
 
-echo 'Car decelerate speed: ' . $tank->getDecelerate() . '<br>';
+echo 'Tank decelerate speed: ' . $tank->getDecelerate() . '<br>';
 
 echo '<br>';
 

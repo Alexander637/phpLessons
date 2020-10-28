@@ -33,12 +33,6 @@ class Car extends Transport implements SpeedInterface, DoorsInterface, MotorInte
 
             $this->accelerate($accelerateSpeed);
             $this->decelerate($decelerateSpeed);
-        } else {
-            $this->doorsCount = null;
-            $this->wheelsCount = null;
-            $this->motorType = null;
-            $this->barrel = null;
         }
     }
-
 }
