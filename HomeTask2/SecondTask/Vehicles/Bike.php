@@ -2,7 +2,6 @@
 
 namespace SecondTask\Vehicles;
 
-
 use SecondTask\Interfaces\DoorsInterface;
 use SecondTask\Interfaces\FireInterface;
 use SecondTask\Interfaces\SpeedInterface;
@@ -32,13 +31,7 @@ class Bike extends Transport implements  ProcessingInterface, MotorInterface, Wh
 
             $this->accelerate($accelerateSpeed);
             $this->decelerate($decelerateSpeed);
-        } else {
-            $this->doorsCount = null;
-            $this->wheelsCount = null;
-            $this->motorType = null;
-            $this->barrel = null;
         }
     }
-
 }
 

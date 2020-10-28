@@ -13,7 +13,7 @@ class Admin extends User
 
         $this->role = $this->explodeForRole();
     }
-    protected function explodeForRole()
+    private function explodeForRole()
     {
         $str = strtolower(__CLASS__);
         $expClassName = explode('\\' , $str);

@@ -33,16 +33,16 @@ class ComposerStaticInited014a3121eb487724affd4a0845a268
         'FirstTask\\Roles\\Moderator' => __DIR__ . '/../..' . '/FirstTask/Roles/Moderator.php',
         'FirstTask\\Roles\\User' => __DIR__ . '/../..' . '/FirstTask/Roles/User.php',
         'FirstTask\\Roles\\Viewer' => __DIR__ . '/../..' . '/FirstTask/Roles/Viewer.php',
+        'SecondTask\\Interfaces\\DoorsInterface' => __DIR__ . '/../..' . '/SecondTask/Interfaces/DoorsInterface.php',
+        'SecondTask\\Interfaces\\FireInterface' => __DIR__ . '/../..' . '/SecondTask/Interfaces/FireInterface.php',
+        'SecondTask\\Interfaces\\MotorInterface' => __DIR__ . '/../..' . '/SecondTask/Interfaces/MotorInterface.php',
+        'SecondTask\\Interfaces\\ProcessingInterface' => __DIR__ . '/../..' . '/SecondTask/Interfaces/ProcessingInterface.php',
+        'SecondTask\\Interfaces\\SpeedInterface' => __DIR__ . '/../..' . '/SecondTask/Interfaces/SpeedInterface.php',
+        'SecondTask\\Interfaces\\WheelInterface' => __DIR__ . '/../..' . '/SecondTask/Interfaces/WheelInterface.php',
         'SecondTask\\Vehicles\\Bike' => __DIR__ . '/../..' . '/SecondTask/Vehicles/Bike.php',
         'SecondTask\\Vehicles\\Car' => __DIR__ . '/../..' . '/SecondTask/Vehicles/Car.php',
-        'SecondTask\\Vehicles\\DoorsInterface' => __DIR__ . '/../..',
-        'SecondTask\\Vehicles\\FireInterface' => __DIR__ . '/../..',
-        'SecondTask\\Vehicles\\MotorInterface' => __DIR__ . '/../..',
-        'SecondTask\\Vehicles\\ProcessingInterface' => __DIR__ . '/../..',
-        'SecondTask\\Vehicles\\SpeedInterface' => __DIR__ . '/../..',
         'SecondTask\\Vehicles\\Tank' => __DIR__ . '/../..' . '/SecondTask/Vehicles/Tank.php',
         'SecondTask\\Vehicles\\Transport' => __DIR__ . '/../..' . '/SecondTask/Vehicles/Transport.php',
-        'SecondTask\\Vehicles\\WheelInterface' => __DIR__ . '/../..',
     );
 
     public static function getInitializer(ClassLoader $loader)
