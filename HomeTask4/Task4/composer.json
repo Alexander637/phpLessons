@@ -1,0 +1,19 @@
+{
+  "name": "task4",
+  "type": "project",
+  "description": "task4.",
+  "license": "MIT",
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "FormProcessing\\": "FormProcessing/",
+      "ForThrow\\": "ForThrow/"
+
+
+    }
+  }
+}
