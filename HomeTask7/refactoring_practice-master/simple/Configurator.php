@@ -57,7 +57,7 @@ class CacheConfigurator extends Configurator
     public function configure()
     {
         $this->configuration['host'] = $this->settings['host'];
-        $this->configuration['port'] = $this->settings['poer'];
+        $this->configuration['port'] = $this->settings['port'];
         $this->configuration['user'] = $this->settings['user'];
         $this->configuration['password'] = $this->settings['password'];
         return $this;
