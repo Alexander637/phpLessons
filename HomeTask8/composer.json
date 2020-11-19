@@ -1,0 +1,20 @@
+{
+  "name": "Task8",
+  "type": "project",
+  "description": "HillelPhpHomeTask.",
+  "license": "MIT",
+  "config": {
+    "optimize-autoloader": true,
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "DbConnect\\": "DbConnect/",
+      "DbRequests\\": "DbRequests"
+    }
+  },
+  "require": {
+    "ext-pdo": "*"
+  }
+}
